@@ -2,7 +2,7 @@
 title: How to merge two sitemaps
 author: harshraj8843
 date: 2022-02-09
-hero: ./images/hero.png
+hero: images/hero.png
 description: An XML sitemap is a file that lists a website’s important pages, making sure Google can find and crawl them all. It also helps search engines understand your website structure. You want Google to crawl every essential page of your website. But sometimes, pages end up without any internal links pointing to them, making them hard to find. A sitemap can help speed up content discovery.
 tags:
   - sitemap
