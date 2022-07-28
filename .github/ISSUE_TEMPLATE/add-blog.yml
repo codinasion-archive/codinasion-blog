@@ -1,0 +1,30 @@
+name: ✍️ Add Blog
+description: Ask/add a Blog
+labels: ["blog"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Hey Geek !!!** 
+
+        This is an open source repository.
+
+        * For questions, ask in [Discussions](https://github.com/codinasion/codinasion-blog/discussions).
+        * Before you file an issue read the [Contributing guide](https://github.com/codinasion/codinasion-blog/blob/master/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar [issue](https://github.com/codinasion/codinasion-blog/issues).
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Description of the blog.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the Codinasion project's [Code of Conduct](https://github.com/codinasion/codinasion-blog/blob/master/CODE_OF_CONDUCT.md)
+          required: true
